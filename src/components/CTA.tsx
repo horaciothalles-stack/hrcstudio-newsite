@@ -1,12 +1,20 @@
 import { ArrowRight } from "lucide-react";
+import logoMark from "@/assets/logo-mark.png";
 
 export function CTA() {
   return (
     <section id="contato" className="relative py-24 lg:py-32">
       <div className="mx-auto max-w-5xl px-6 lg:px-10">
         <div className="relative overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-surface via-background to-surface p-10 text-center shadow-elevated md:p-16">
+          {/* Watermark logo gigante */}
+          <img
+            src={logoMark}
+            alt=""
+            aria-hidden="true"
+            className="pointer-events-none absolute -bottom-32 left-1/2 z-0 h-[480px] w-[480px] -translate-x-1/2 object-contain opacity-[0.07] md:-bottom-40 md:h-[640px] md:w-[640px]"
+          />
           <div className="absolute -right-20 -top-20 h-80 w-80 rounded-full bg-primary/20 blur-3xl" />
-          <div className="absolute -bottom-20 -left-20 h-80 w-80 rounded-full bg-primary/10 blur-3xl" />
+          <div className="absolute -bottom-20 -left-20 h-80 w-80 rounded-full bg-highlight/20 blur-3xl" />
 
           <div className="relative">
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">

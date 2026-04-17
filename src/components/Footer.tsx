@@ -1,3 +1,5 @@
+import logoFull from "@/assets/logo-full.png";
+
 const IG = (p: { size?: number }) => (
   <svg width={p.size ?? 16} height={p.size ?? 16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
 );
@@ -10,14 +12,19 @@ const YT = (p: { size?: number }) => (
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-background">
-      <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+    <footer className="relative overflow-hidden border-t border-border bg-background">
+      {/* Logo full como elemento gráfico de fundo */}
+      <img
+        src={logoFull}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute -bottom-20 left-1/2 -translate-x-1/2 h-[300px] w-auto max-w-none object-contain opacity-[0.05] md:h-[420px]"
+      />
+      <div className="relative mx-auto max-w-7xl px-6 py-12 lg:px-10">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
           <div>
-            <span className="font-display text-xl font-bold tracking-tight">
-              HRC<span className="text-primary">.</span>studio
-            </span>
-            <p className="mt-2 max-w-sm text-sm text-muted-foreground">
+            <img src={logoFull} alt="HRC Studio" className="h-10 w-auto" />
+            <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Agência de marketing focada em economia de tempo e resultado real.
             </p>
           </div>
