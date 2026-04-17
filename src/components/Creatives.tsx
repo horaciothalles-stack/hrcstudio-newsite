@@ -54,10 +54,11 @@ export function Creatives() {
                   Quero meu acesso
                 </a>
                 <div className="text-sm text-muted-foreground">
-                  <span className="block text-xs uppercase tracking-wider">A partir de</span>
+                  <span className="block text-xs uppercase tracking-wider">Apenas</span>
                   <span className="font-display text-2xl font-bold text-foreground">
-                    12x R$ 19,70
+                    R$ 19,90
                   </span>
+                  <span className="block text-xs text-muted-foreground">ou 4x de R$ 5,57</span>
                 </div>
               </div>
             </div>
