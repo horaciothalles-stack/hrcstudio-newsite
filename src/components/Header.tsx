@@ -37,7 +37,6 @@ export function Header() {
             className="h-9 w-9 object-contain"
           />
           <span className="font-display text-xl font-bold tracking-tight">
-            HRC<span className="text-primary">.</span>studio
           </span>
         </a>
 
