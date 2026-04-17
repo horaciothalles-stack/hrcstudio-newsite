@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Check, Download, Layers, Zap } from "lucide-react";
-import creativesMockup from "@/assets/creatives-mockup.jpg";
+import creativesMockup from "@/assets/creatives-mockup.png";
 
 const features = [
   "+1000 criativos prontos pra usar",
