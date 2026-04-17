@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logoMark from "@/assets/logo-mark.png";
 
 const links = [
   { href: "#servicos", label: "Serviços" },
@@ -27,7 +28,14 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-        <a href="#top" className="flex items-center gap-2">
+        <a href="#top" className="flex items-center gap-2.5">
+          <img
+            src={logoMark}
+            alt="HRC Studio"
+            width={36}
+            height={36}
+            className="h-9 w-9 object-contain"
+          />
           <span className="font-display text-xl font-bold tracking-tight">
             HRC<span className="text-primary">.</span>studio
           </span>
