@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "HRC Studio" },
+      { name: "description", content: "HRC Studio Hub is a marketing agency landing page showcasing services, portfolio, and a premium creative asset package." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "HRC Studio" },
+      { property: "og:description", content: "HRC Studio Hub is a marketing agency landing page showcasing services, portfolio, and a premium creative asset package." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "HRC Studio" },
+      { name: "twitter:description", content: "HRC Studio Hub is a marketing agency landing page showcasing services, portfolio, and a premium creative asset package." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/oEWTvLr2XMZQQqiIMQx3WDgftEW2/social-images/social-1776450447522-Ativo_1.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/oEWTvLr2XMZQQqiIMQx3WDgftEW2/social-images/social-1776450447522-Ativo_1.webp" },
     ],
     links: [
       {
