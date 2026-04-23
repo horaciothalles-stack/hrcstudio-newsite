@@ -1,19 +1,20 @@
 import { motion } from "framer-motion";
-import { Quote, Star } from "lucide-react";
+import { Link } from "@tanstack/react-router";
+import { ArrowRight, Quote, Star } from "lucide-react";
+import fiveStars from "@/assets/clients/five-stars.png";
+import borges from "@/assets/clients/borges.png";
+import dreTarquini from "@/assets/clients/dre-tarquini.png";
+import lamar from "@/assets/clients/lamar.png";
+import malaga from "@/assets/clients/malaga.png";
+import newTrade from "@/assets/clients/new-trade.png";
 
-const clients = [
-  "NORTHWAVE",
-  "LUMENA",
-  "BRAVO CO.",
-  "ATLAS+",
-  "VERSO",
-  "KORE",
-  "ÓRBITA",
-  "NEXA",
-  "SAGE",
-  "IRIS LAB",
-  "MONO",
-  "PRISMA",
+const clientLogos = [
+  { src: fiveStars, name: "Five Stars Barbearia" },
+  { src: borges, name: "Borges" },
+  { src: dreTarquini, name: "Dre Tarquini" },
+  { src: lamar, name: "Lamar" },
+  { src: malaga, name: "Málaga" },
+  { src: newTrade, name: "New Trade Concept" },
 ];
 
 const testimonials = [
@@ -56,14 +57,15 @@ export function Portfolio() {
       <div className="relative mt-16 overflow-hidden">
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-32 bg-gradient-to-r from-background to-transparent" />
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-32 bg-gradient-to-l from-background to-transparent" />
-        <div className="flex animate-marquee gap-16 whitespace-nowrap">
-          {[...clients, ...clients].map((c, i) => (
-            <span
+        <div className="flex animate-marquee items-center gap-16 whitespace-nowrap">
+          {[...clientLogos, ...clientLogos].map((c, i) => (
+            <img
               key={i}
-              className="font-display text-2xl font-bold tracking-[0.15em] text-muted-foreground/60 transition-colors hover:text-foreground"
-            >
-              {c}
-            </span>
+              src={c.src}
+              alt={c.name}
+              loading="lazy"
+              className="h-16 w-auto max-w-[200px] shrink-0 object-contain opacity-60 transition-opacity hover:opacity-100"
+            />
           ))}
         </div>
       </div>
@@ -95,6 +97,16 @@ export function Portfolio() {
               </figcaption>
             </motion.figure>
           ))}
+        </div>
+
+        <div className="mt-14 flex justify-center">
+          <Link
+            to="/projetos"
+            className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-primary-glow"
+          >
+            Ver Projetos
+            <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+          </Link>
         </div>
       </div>
     </section>

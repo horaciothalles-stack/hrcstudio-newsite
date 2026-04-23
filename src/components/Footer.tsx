@@ -31,22 +31,28 @@ export function Footer() {
 
           <div className="flex items-center gap-3">
             <a
-              href="#"
+              href="https://www.instagram.com/hrc.studio"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
             >
               <IG size={16} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/hrc-studio"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="LinkedIn"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
             >
               <LI size={16} />
             </a>
             <a
-              href="#"
-              aria-label="YouTube"
+              href="https://wa.me/5511922193335"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
             >
               <YT size={16} />
