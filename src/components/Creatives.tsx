@@ -47,7 +47,9 @@ export function Creatives() {
 
               <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
                 <a
-                  href="#contato"
+                  href="https://pay.cakto.com.br/c8gazmw_827890"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-primary-glow"
                 >
                   <Download size={16} />
