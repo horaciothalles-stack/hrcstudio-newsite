@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Vocês atendem qualquer segmento?",
-    a: "Trabalhamos principalmente com infoprodutores, e-commerces, clínicas, serviços B2B e marcas de lifestyle. Se não for fit, falamos isso na call — não pegamos cliente que não conseguimos entregar.",
+    a: "Trabalhamos principalmente com infoprodutores, e-commerces, clínicas, serviços B2B e marcas de lifestyle. Se não for fit, falamos isso na call, não pegamos cliente que não conseguimos entregar.",
   },
   {
     q: "O pacote de criativos substitui contratar a agência?",
