@@ -35,6 +35,13 @@ const testimonials = [
   },
 ];
 
+const featuredProjects = [
+  { slug: "5stars", title: "Five Stars Barbearia", category: "Identidade visual", image: fiveStars },
+  { slug: "tarquini", title: "Dre Tarquini Fotografia", category: "Branding & apresentação", image: dreTarquini },
+  { slug: "malaga", title: "Málaga", category: "Identidade visual", image: malaga },
+  { slug: "ntc", title: "New Trade Concept", category: "Apresentação corporativa", image: newTrade },
+];
+
 export function Portfolio() {
   return (
     <section id="portfolio" className="relative py-24 lg:py-32">
@@ -70,15 +77,51 @@ export function Portfolio() {
         </div>
       </div>
 
-      {/* CTA Ver Projetos — between logos and testimonials */}
-      <div className="mx-auto mt-16 flex max-w-7xl justify-center px-6 lg:px-10">
-        <Link
-          to="/projetos"
-          className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-primary-glow"
-        >
-          Ver Projetos
-          <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-        </Link>
+      <div className="mx-auto mt-16 max-w-7xl px-6 lg:px-10">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {featuredProjects.map((project) => (
+            <Link
+              key={project.slug}
+              to="/projetos/$slug"
+              params={{ slug: project.slug }}
+              className="group overflow-hidden rounded-2xl border border-border bg-surface shadow-card transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-elevated"
+              aria-label={`Abrir álbum do projeto ${project.title}`}
+            >
+              <div className="relative aspect-[4/5] overflow-hidden bg-background">
+                <img
+                  src={project.image}
+                  alt={`Capa do projeto ${project.title}`}
+                  loading="lazy"
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-4 p-5">
+                  <div>
+                    <div className="text-[10px] uppercase tracking-[0.18em] text-primary">
+                      {project.category}
+                    </div>
+                    <div className="mt-1 font-display text-lg font-bold text-foreground">
+                      {project.title}
+                    </div>
+                  </div>
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-glow transition-transform group-hover:translate-x-1">
+                    <ArrowRight size={16} />
+                  </span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <Link
+            to="/projetos"
+            className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-primary-glow"
+          >
+            Ver todos os projetos
+            <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
       </div>
 
       {/* Testimonials */}
