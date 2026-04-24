@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
-import { AlertCircle } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { AlertCircle, ChevronLeft, ChevronRight } from "lucide-react";
 
 const pains = [
   "Você investe em marketing todo mês, mas no fim ninguém sabe dizer com clareza o que realmente está dando retorno.",
@@ -11,13 +12,30 @@ const pains = [
   "No fundo, você sabe que precisa ajustar algo, só não sabe exatamente o quê nem por onde começar.",
 ];
 
+const ROTATION_MS = 4500;
+
 export function Pains() {
+  const [index, setIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (isPaused) return;
+    timerRef.current = setInterval(() => {
+      setIndex((i) => (i + 1) % pains.length);
+    }, ROTATION_MS);
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [isPaused]);
+
+  const goTo = (i: number) => setIndex((i + pains.length) % pains.length);
+
   return (
     <section
       id="dores"
       className="relative overflow-hidden border-y border-border bg-surface/40 py-24 lg:py-32"
     >
-      {/* subtle background glow */}
       <div
         aria-hidden
         className="pointer-events-none absolute -top-40 left-1/2 h-[480px] w-[480px] -translate-x-1/2 rounded-full bg-accent/10 blur-[120px]"
@@ -45,28 +63,83 @@ export function Pains() {
           </p>
         </motion.div>
 
-        <ul className="mx-auto mt-14 flex max-w-3xl flex-col gap-3">
-          {pains.map((p, i) => (
-            <motion.li
-              key={i}
-              initial={{ opacity: 0, x: -16 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-30px" }}
-              transition={{ duration: 0.45, delay: i * 0.06 }}
-              className="group flex items-start gap-4 rounded-xl border border-border bg-background/60 p-5 backdrop-blur transition-all hover:border-primary/40 hover:bg-background"
+        {/* Rotating pain carousel */}
+        <div
+          className="mx-auto mt-14 max-w-3xl"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+          onFocus={() => setIsPaused(true)}
+          onBlur={() => setIsPaused(false)}
+        >
+          <div
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Dores comuns dos nossos clientes"
+            aria-live="polite"
+            className="relative flex min-h-[260px] items-center justify-center rounded-2xl border border-border bg-background/60 p-8 backdrop-blur md:min-h-[220px] md:p-12"
+          >
+            {/* Prev / Next */}
+            <button
+              type="button"
+              onClick={() => goTo(index - 1)}
+              aria-label="Dor anterior"
+              className="absolute left-3 top-1/2 hidden -translate-y-1/2 rounded-full border border-border bg-background/80 p-2 text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground md:inline-flex"
             >
-              <span
-                aria-hidden
-                className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-primary/10 font-display text-xs font-bold text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground"
+              <ChevronLeft size={18} />
+            </button>
+            <button
+              type="button"
+              onClick={() => goTo(index + 1)}
+              aria-label="Próxima dor"
+              className="absolute right-3 top-1/2 hidden -translate-y-1/2 rounded-full border border-border bg-background/80 p-2 text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground md:inline-flex"
+            >
+              <ChevronRight size={18} />
+            </button>
+
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -16 }}
+                transition={{ duration: 0.45, ease: "easeOut" }}
+                className="flex w-full max-w-2xl flex-col items-center gap-5 text-center"
               >
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <p className="text-base leading-relaxed text-foreground/90 md:text-lg">
-                {p}
-              </p>
-            </motion.li>
-          ))}
-        </ul>
+                <span
+                  aria-hidden
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-primary/10 font-display text-sm font-bold text-primary"
+                >
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <p className="text-lg leading-relaxed text-foreground/90 md:text-2xl md:leading-snug">
+                  {pains[index]}
+                </p>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Dots */}
+          <div className="mt-6 flex items-center justify-center gap-2">
+            {pains.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => goTo(i)}
+                aria-label={`Ir para dor ${i + 1}`}
+                aria-current={i === index}
+                className={`h-1.5 rounded-full transition-all ${
+                  i === index
+                    ? "w-8 bg-primary"
+                    : "w-3 bg-border hover:bg-muted-foreground/50"
+                }`}
+              />
+            ))}
+          </div>
+
+          <p className="mt-3 text-center text-xs text-muted-foreground/70">
+            {isPaused ? "Pausado" : "Passa sozinho • passe o mouse para pausar"}
+          </p>
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: 16 }}
