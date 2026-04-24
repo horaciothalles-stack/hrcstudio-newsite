@@ -4,7 +4,7 @@ import { Plus } from "lucide-react";
 const faqs = [
   {
     q: "Quanto custa contratar a HRC Studio?",
-    a: "Os planos variam conforme o escopo (tráfego, social media, branding, etc). Após o diagnóstico gratuito, montamos uma proposta sob medida pra sua realidade — começando a partir de R$ 2.500/mês.",
+    a: "Os planos variam conforme o escopo (tráfego, social media, branding, etc). Após o diagnóstico gratuito, montamos uma proposta sob medida pra sua realidade.",
   },
   {
     q: "Em quanto tempo vejo resultado?",

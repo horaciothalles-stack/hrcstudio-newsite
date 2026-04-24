@@ -19,19 +19,19 @@ const clientLogos = [
 
 const testimonials = [
   {
-    name: "Mariana Costa",
-    role: "CEO, Lumena Skincare",
-    text: "Em 4 meses a HRC dobrou nosso faturamento online. O nível dos criativos é absurdo — parece que entendem o nosso público melhor do que a gente.",
+    name: "Marcela Almeida",
+    role: "Sócia, Lamar Boutique",
+    text: "Foi tudo muito rápido e organizado. A equipe entendeu o que a gente precisava, executou sem complicação e entregou resultado. Deu uma sensação de segurança muito grande durante todo o processo.",
   },
   {
-    name: "Rafael Mendes",
-    role: "Sócio, Bravo Co.",
-    text: "A diferença é tratamento. Não é só agência rodando campanha, é parceiro pensando estratégia comigo toda semana. Saímos de R$50k para R$380k/mês.",
+    name: "Diego Rocha",
+    role: "CEO, New Trade Concept",
+    text: "O que mais fez diferença pra gente foi a proximidade. Toda semana a gente ajusta, pensa junto, toma decisão... O crescimento veio como consequência disso! Saímos de R$50k pra R$380k/mês com muito mais clareza do que estávamos fazendo.",
   },
   {
-    name: "Juliana Reis",
-    role: "Diretora de Marketing, Atlas+",
-    text: "Profissionalismo e velocidade de outro nível. Aprovaram, criaram, publicaram. Sem retrabalho, sem desculpa. Só resultado.",
+    name: "Igor",
+    role: "CEO, 5 Stars Barbearia",
+    text: "Em 4 meses com a HRC, a gente realmente sentiu o negócio virar. O faturamento online cresceu muito, mas o que mais chamou atenção foi como os criativos começaram a conversar direto com o nosso público. Parece que eles entenderam a nossa marca por dentro.",
   },
 ];
 
