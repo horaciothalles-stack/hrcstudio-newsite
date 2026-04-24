@@ -70,8 +70,19 @@ export function Portfolio() {
         </div>
       </div>
 
+      {/* CTA Ver Projetos — between logos and testimonials */}
+      <div className="mx-auto mt-16 flex max-w-7xl justify-center px-6 lg:px-10">
+        <Link
+          to="/projetos"
+          className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-primary-glow"
+        >
+          Ver Projetos
+          <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+        </Link>
+      </div>
+
       {/* Testimonials */}
-      <div className="mx-auto mt-24 max-w-7xl px-6 lg:px-10">
+      <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-10">
         <div className="grid gap-6 md:grid-cols-3">
           {testimonials.map((t, i) => (
             <motion.figure
@@ -99,15 +110,6 @@ export function Portfolio() {
           ))}
         </div>
 
-        <div className="mt-14 flex justify-center">
-          <Link
-            to="/projetos"
-            className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-primary-glow"
-          >
-            Ver Projetos
-            <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-          </Link>
-        </div>
       </div>
     </section>
   );
