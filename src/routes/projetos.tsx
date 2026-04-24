@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, Images } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { projects } from "@/data/projects";
@@ -55,6 +55,7 @@ function ProjectsPage() {
                 key={p.slug}
                 to="/projetos/$slug"
                 params={{ slug: p.slug }}
+                aria-label={`Abrir álbum do projeto ${p.title} (${p.images.length} imagens)`}
                 className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-card transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-elevated"
               >
                 <div className="relative aspect-[4/5] overflow-hidden bg-background">
@@ -64,7 +65,21 @@ function ProjectsPage() {
                     loading="lazy"
                     className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/0 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent" />
+
+                  {/* Counter badge */}
+                  <div className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-background/80 px-3 py-1.5 text-[11px] font-medium text-foreground backdrop-blur">
+                    <Images size={12} className="text-primary" />
+                    {p.images.length} imagens
+                  </div>
+
+                  {/* Hover overlay CTA */}
+                  <div className="absolute inset-x-0 bottom-0 flex items-center justify-center pb-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <span className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-xs font-semibold text-primary-foreground shadow-glow">
+                      Abrir álbum
+                      <ArrowRight size={12} />
+                    </span>
+                  </div>
                 </div>
                 <div className="flex items-center justify-between gap-4 p-6">
                   <div>
