@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: "Em quanto tempo vejo resultado?",
-    a: "Os primeiros sinais de tração aparecem em 30 a 60 dias. Resultados consistentes e escaláveis acontecem normalmente entre o 3º e o 4º mês de operação.",
+    a: "Nos primeiros 30 a 60 dias, a gente já começa a entender o que performa melhor e fazer os ajustes certos. Com isso, o crescimento vai ganhando força e tende a ficar mais previsível ao longo dos meses seguintes.",
   },
   {
     q: "Vocês atendem qualquer segmento?",
