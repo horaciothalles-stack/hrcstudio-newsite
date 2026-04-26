@@ -35,13 +35,6 @@ const testimonials = [
   },
 ];
 
-const featuredProjects = [
-  { slug: "5stars", title: "Five Stars Barbearia", category: "Identidade visual", image: fiveStars },
-  { slug: "tarquini", title: "Dre Tarquini Fotografia", category: "Branding & apresentação", image: dreTarquini },
-  { slug: "malaga", title: "Málaga", category: "Identidade visual", image: malaga },
-  { slug: "ntc", title: "New Trade Concept", category: "Apresentação corporativa", image: newTrade },
-];
-
 export function Portfolio() {
   return (
     <section id="portfolio" className="relative py-24 lg:py-32">
