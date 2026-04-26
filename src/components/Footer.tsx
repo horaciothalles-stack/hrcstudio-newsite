@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} HRC Studio. Todos os direitos reservados.</p>
-          <p>CNPJ 00.000.000/0001-00 · Feito com foco em performance.</p>
+          <p>CNPJ 54.124.846/0001-62 · Feito com foco em performance.</p>
         </div>
       </div>
     </footer>
