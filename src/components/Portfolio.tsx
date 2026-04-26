@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, Quote, Star } from "lucide-react";
+import { Quote, Star } from "lucide-react";
 import fiveStars from "@/assets/clients/five-stars.png";
 import borges from "@/assets/clients/borges.png";
 import dreTarquini from "@/assets/clients/dre-tarquini.png";
