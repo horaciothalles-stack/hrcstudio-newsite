@@ -4,7 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { getProject, projects } from "@/data/projects";
 
-export const Route = createFileRoute("/projetos/$slug")({
+export const Route = createFileRoute("/projetos_/$slug")({
   loader: ({ params }) => {
     const project = getProject(params.slug);
     if (!project) throw notFound();
