@@ -45,11 +45,6 @@ export const Route = createFileRoute("/projetos_/$slug")({
       <Footer />
     </div>
   ),
-  errorComponent: ({ error }) => (
-    <div className="min-h-screen bg-background p-10 text-foreground">
-      <p>Erro: {error.message}</p>
-    </div>
-  ),
   component: ProjectPage,
 });
 
