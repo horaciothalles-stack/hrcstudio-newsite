@@ -1,0 +1,643 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "/home/runner/work/hrcstudio-newsite/hrcstudio-newsite/src/styles.css": {
+    "file": "assets/styles-BoevAFxy.css",
+    "src": "/home/runner/work/hrcstudio-newsite/hrcstudio-newsite/src/styles.css"
+  },
+  "_Footer-P7t53bbg.js": {
+    "file": "assets/Footer-P7t53bbg.js",
+    "name": "Footer",
+    "imports": [
+      "_worker-entry-BstavnVk.js"
+    ],
+    "assets": [
+      "assets/logo-mark-BSWAJPmN.png",
+      "assets/logo-full-PvNIQWjC.png"
+    ]
+  },
+  "_arrow-left-Br5js95b.js": {
+    "file": "assets/arrow-left-Br5js95b.js",
+    "name": "arrow-left",
+    "imports": [
+      "_Footer-P7t53bbg.js"
+    ]
+  },
+  "_arrow-right-DopIsXzA.js": {
+    "file": "assets/arrow-right-DopIsXzA.js",
+    "name": "arrow-right",
+    "imports": [
+      "_Footer-P7t53bbg.js"
+    ]
+  },
+  "_router-K7HPpEca.js": {
+    "file": "assets/router-K7HPpEca.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js"
+    ],
+    "dynamicImports": [
+      "src/routes/projetos.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component",
+      "src/routes/projetos_.$slug.tsx?tsr-split=component",
+      "src/routes/projetos_.$slug.tsx?tsr-split=errorComponent",
+      "src/routes/projetos_.$slug.tsx?tsr-split=notFoundComponent"
+    ],
+    "assets": [
+      "assets/00-BJdb4z1y.jpg",
+      "assets/01-CfIBHJah.jpg",
+      "assets/02-Dt64lsJb.jpg",
+      "assets/03-CjtDL9rV.jpg",
+      "assets/04-DY0an8od.jpg",
+      "assets/05-DUtz2cjm.jpg",
+      "assets/06-f-iZbJMQ.jpg",
+      "assets/07-CgOhIr1H.jpg",
+      "assets/08-CVEnnW2t.jpg",
+      "assets/09-DjccTCzm.jpg",
+      "assets/10-Bb3cnfX9.jpg",
+      "assets/11-rV04vt5x.jpg",
+      "assets/12-DDMBdGlw.jpg",
+      "assets/13-CN-T-r3B.jpg",
+      "assets/14-6qCEeQhq.jpg",
+      "assets/15-B-doOkhc.jpg",
+      "assets/00-DWrUPlIZ.jpg",
+      "assets/01-DumHUKpE.jpg",
+      "assets/02-uswU-Wr8.jpg",
+      "assets/03-DzV0dLzK.jpg",
+      "assets/04-C0HDHGFm.jpg",
+      "assets/05-BluFSpn3.jpg",
+      "assets/06-xGJP8UL4.jpg",
+      "assets/07-RdEN97cf.jpg",
+      "assets/08-DythAXnF.jpg",
+      "assets/00-qPThGcE-.jpg",
+      "assets/01-BXYlIa_9.jpg",
+      "assets/02-ksPtGV6c.jpg",
+      "assets/03-BskzCiMB.jpg",
+      "assets/04-CHUzxSHq.jpg",
+      "assets/05-Crd2uxjq.jpg",
+      "assets/06-BRZKZisp.jpg",
+      "assets/00-DF7MEpzx.jpg",
+      "assets/01-roi8lErs.jpg",
+      "assets/02-DrWJZ5iH.jpg",
+      "assets/03-CikdHrLM.jpg",
+      "assets/04-Br6fs_nm.jpg",
+      "assets/05-jl9GPtjc.jpg",
+      "assets/06-UK1LgnIC.jpg",
+      "assets/07-B2tl5dlg.jpg",
+      "assets/08-BjjlBO8E.jpg",
+      "assets/09-D1B38D6u.jpg",
+      "assets/10-CbZENe0o.jpg",
+      "assets/11-xBoZTdsn.jpg",
+      "assets/12-qFrs91Bn.jpg",
+      "assets/00--PxcohpX.jpg",
+      "assets/01-_qkVmmdp.jpg",
+      "assets/02-BTiUkFJy.jpg",
+      "assets/03-ZYt9az5C.jpg",
+      "assets/04-Csu_nkWb.jpg",
+      "assets/05-BhMpgL1k.jpg",
+      "assets/06-znU11XWC.jpg",
+      "assets/07-BscHjs_k.jpg",
+      "assets/08-CjXV-tkk.jpg",
+      "assets/space-grotesk-vietnamese-400-normal-B7xT_GF5.woff2",
+      "assets/space-grotesk-vietnamese-400-normal-BIWiOVfw.woff",
+      "assets/space-grotesk-latin-ext-400-normal-CfP_5XZW.woff2",
+      "assets/space-grotesk-latin-ext-400-normal-DRPE3kg4.woff",
+      "assets/space-grotesk-latin-400-normal-CJ-V5oYT.woff2",
+      "assets/space-grotesk-latin-400-normal-BnQMeOim.woff",
+      "assets/space-grotesk-vietnamese-500-normal-BmEvtly_.woff2",
+      "assets/space-grotesk-vietnamese-500-normal-BTqKIpxg.woff",
+      "assets/space-grotesk-latin-ext-500-normal-DUe3BAxM.woff2",
+      "assets/space-grotesk-latin-ext-500-normal-3dgZTiw9.woff",
+      "assets/space-grotesk-latin-500-normal-lFbtlQH6.woff2",
+      "assets/space-grotesk-latin-500-normal-CNSSEhBt.woff",
+      "assets/space-grotesk-vietnamese-600-normal-DUi7WF5p.woff2",
+      "assets/space-grotesk-vietnamese-600-normal-D6zpsUhD.woff",
+      "assets/space-grotesk-latin-ext-600-normal-DxxdqCpr.woff2",
+      "assets/space-grotesk-latin-ext-600-normal-VcznFIpX.woff",
+      "assets/space-grotesk-latin-600-normal-DjKNqYRj.woff2",
+      "assets/space-grotesk-latin-600-normal-BflQw4A9.woff",
+      "assets/space-grotesk-vietnamese-700-normal-DMty7AZE.woff2",
+      "assets/space-grotesk-vietnamese-700-normal-Duxec5Rn.woff",
+      "assets/space-grotesk-latin-ext-700-normal-BQnZhY3m.woff2",
+      "assets/space-grotesk-latin-ext-700-normal-HVCqSBdx.woff",
+      "assets/space-grotesk-latin-700-normal-RjhwGPKo.woff2",
+      "assets/space-grotesk-latin-700-normal-CwsQ-cCU.woff",
+      "assets/dm-sans-latin-ext-400-normal-BtiwyxMk.woff2",
+      "assets/dm-sans-latin-ext-400-normal-BjWJ59Pq.woff",
+      "assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "assets/dm-sans-latin-400-normal-BwCSEQnW.woff",
+      "assets/dm-sans-latin-ext-500-normal-BJfUCQsA.woff2",
+      "assets/dm-sans-latin-ext-500-normal-DR84L5F-.woff",
+      "assets/dm-sans-latin-500-normal-B9HHJjqV.woff2",
+      "assets/dm-sans-latin-500-normal-Dr3UlScf.woff",
+      "assets/dm-sans-latin-ext-600-normal-4vooXBpG.woff2",
+      "assets/dm-sans-latin-ext-600-normal-DRtaDpgU.woff",
+      "assets/dm-sans-latin-600-normal-Aqo67rzb.woff2",
+      "assets/dm-sans-latin-600-normal-BmdmIIQ2.woff",
+      "assets/styles-BoevAFxy.css"
+    ]
+  },
+  "_worker-entry-BstavnVk.js": {
+    "file": "assets/worker-entry-BstavnVk.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-K7HPpEca.js",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff": {
+    "file": "assets/dm-sans-latin-400-normal-BwCSEQnW.woff",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2": {
+    "file": "assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff": {
+    "file": "assets/dm-sans-latin-500-normal-Dr3UlScf.woff",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff2": {
+    "file": "assets/dm-sans-latin-500-normal-B9HHJjqV.woff2",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-600-normal.woff": {
+    "file": "assets/dm-sans-latin-600-normal-BmdmIIQ2.woff",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-600-normal.woff2": {
+    "file": "assets/dm-sans-latin-600-normal-Aqo67rzb.woff2",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-400-normal.woff": {
+    "file": "assets/dm-sans-latin-ext-400-normal-BjWJ59Pq.woff",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-400-normal.woff2": {
+    "file": "assets/dm-sans-latin-ext-400-normal-BtiwyxMk.woff2",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-500-normal.woff": {
+    "file": "assets/dm-sans-latin-ext-500-normal-DR84L5F-.woff",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-500-normal.woff2": {
+    "file": "assets/dm-sans-latin-ext-500-normal-BJfUCQsA.woff2",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-600-normal.woff": {
+    "file": "assets/dm-sans-latin-ext-600-normal-DRtaDpgU.woff",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-600-normal.woff2": {
+    "file": "assets/dm-sans-latin-ext-600-normal-4vooXBpG.woff2",
+    "src": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-400-normal.woff": {
+    "file": "assets/space-grotesk-latin-400-normal-BnQMeOim.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-400-normal.woff2": {
+    "file": "assets/space-grotesk-latin-400-normal-CJ-V5oYT.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff": {
+    "file": "assets/space-grotesk-latin-500-normal-CNSSEhBt.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff2": {
+    "file": "assets/space-grotesk-latin-500-normal-lFbtlQH6.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-600-normal.woff": {
+    "file": "assets/space-grotesk-latin-600-normal-BflQw4A9.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-600-normal.woff2": {
+    "file": "assets/space-grotesk-latin-600-normal-DjKNqYRj.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff": {
+    "file": "assets/space-grotesk-latin-700-normal-CwsQ-cCU.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2": {
+    "file": "assets/space-grotesk-latin-700-normal-RjhwGPKo.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-400-normal.woff": {
+    "file": "assets/space-grotesk-latin-ext-400-normal-DRPE3kg4.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-400-normal.woff2": {
+    "file": "assets/space-grotesk-latin-ext-400-normal-CfP_5XZW.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-500-normal.woff": {
+    "file": "assets/space-grotesk-latin-ext-500-normal-3dgZTiw9.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-500-normal.woff2": {
+    "file": "assets/space-grotesk-latin-ext-500-normal-DUe3BAxM.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-600-normal.woff": {
+    "file": "assets/space-grotesk-latin-ext-600-normal-VcznFIpX.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-600-normal.woff2": {
+    "file": "assets/space-grotesk-latin-ext-600-normal-DxxdqCpr.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-700-normal.woff": {
+    "file": "assets/space-grotesk-latin-ext-700-normal-HVCqSBdx.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-700-normal.woff2": {
+    "file": "assets/space-grotesk-latin-ext-700-normal-BQnZhY3m.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-400-normal.woff": {
+    "file": "assets/space-grotesk-vietnamese-400-normal-BIWiOVfw.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-400-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-400-normal.woff2": {
+    "file": "assets/space-grotesk-vietnamese-400-normal-B7xT_GF5.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-400-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-500-normal.woff": {
+    "file": "assets/space-grotesk-vietnamese-500-normal-BTqKIpxg.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-500-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-500-normal.woff2": {
+    "file": "assets/space-grotesk-vietnamese-500-normal-BmEvtly_.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-500-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-600-normal.woff": {
+    "file": "assets/space-grotesk-vietnamese-600-normal-D6zpsUhD.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-600-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-600-normal.woff2": {
+    "file": "assets/space-grotesk-vietnamese-600-normal-DUi7WF5p.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-600-normal.woff2"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-700-normal.woff": {
+    "file": "assets/space-grotesk-vietnamese-700-normal-Duxec5Rn.woff",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-700-normal.woff"
+  },
+  "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-700-normal.woff2": {
+    "file": "assets/space-grotesk-vietnamese-700-normal-DMty7AZE.woff2",
+    "src": "node_modules/@fontsource/space-grotesk/files/space-grotesk-vietnamese-700-normal.woff2"
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-HYkvq4Ni.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "src/assets/clients/borges.png": {
+    "file": "assets/borges-8UAEwDht.png",
+    "src": "src/assets/clients/borges.png"
+  },
+  "src/assets/clients/dre-tarquini.png": {
+    "file": "assets/dre-tarquini-DS-zrYUF.png",
+    "src": "src/assets/clients/dre-tarquini.png"
+  },
+  "src/assets/clients/five-stars.png": {
+    "file": "assets/five-stars-Dv0Qu8VP.png",
+    "src": "src/assets/clients/five-stars.png"
+  },
+  "src/assets/clients/lamar.png": {
+    "file": "assets/lamar-By7pYEOw.png",
+    "src": "src/assets/clients/lamar.png"
+  },
+  "src/assets/clients/malaga.png": {
+    "file": "assets/malaga-DOdciCvj.png",
+    "src": "src/assets/clients/malaga.png"
+  },
+  "src/assets/clients/new-trade.png": {
+    "file": "assets/new-trade-DouxocWI.png",
+    "src": "src/assets/clients/new-trade.png"
+  },
+  "src/assets/creatives-mockup.png": {
+    "file": "assets/creatives-mockup-BBdl-RF9.png",
+    "src": "src/assets/creatives-mockup.png"
+  },
+  "src/assets/hero-bg.jpg": {
+    "file": "assets/hero-bg-C1AjFAzC.jpg",
+    "src": "src/assets/hero-bg.jpg"
+  },
+  "src/assets/logo-full.png": {
+    "file": "assets/logo-full-PvNIQWjC.png",
+    "src": "src/assets/logo-full.png"
+  },
+  "src/assets/logo-mark.png": {
+    "file": "assets/logo-mark-BSWAJPmN.png",
+    "src": "src/assets/logo-mark.png"
+  },
+  "src/assets/projects/5stars/00.jpg": {
+    "file": "assets/00-BJdb4z1y.jpg",
+    "src": "src/assets/projects/5stars/00.jpg"
+  },
+  "src/assets/projects/5stars/01.jpg": {
+    "file": "assets/01-CfIBHJah.jpg",
+    "src": "src/assets/projects/5stars/01.jpg"
+  },
+  "src/assets/projects/5stars/02.jpg": {
+    "file": "assets/02-Dt64lsJb.jpg",
+    "src": "src/assets/projects/5stars/02.jpg"
+  },
+  "src/assets/projects/5stars/03.jpg": {
+    "file": "assets/03-CjtDL9rV.jpg",
+    "src": "src/assets/projects/5stars/03.jpg"
+  },
+  "src/assets/projects/5stars/04.jpg": {
+    "file": "assets/04-DY0an8od.jpg",
+    "src": "src/assets/projects/5stars/04.jpg"
+  },
+  "src/assets/projects/5stars/05.jpg": {
+    "file": "assets/05-DUtz2cjm.jpg",
+    "src": "src/assets/projects/5stars/05.jpg"
+  },
+  "src/assets/projects/5stars/06.jpg": {
+    "file": "assets/06-f-iZbJMQ.jpg",
+    "src": "src/assets/projects/5stars/06.jpg"
+  },
+  "src/assets/projects/5stars/07.jpg": {
+    "file": "assets/07-CgOhIr1H.jpg",
+    "src": "src/assets/projects/5stars/07.jpg"
+  },
+  "src/assets/projects/5stars/08.jpg": {
+    "file": "assets/08-CVEnnW2t.jpg",
+    "src": "src/assets/projects/5stars/08.jpg"
+  },
+  "src/assets/projects/5stars/09.jpg": {
+    "file": "assets/09-DjccTCzm.jpg",
+    "src": "src/assets/projects/5stars/09.jpg"
+  },
+  "src/assets/projects/5stars/10.jpg": {
+    "file": "assets/10-Bb3cnfX9.jpg",
+    "src": "src/assets/projects/5stars/10.jpg"
+  },
+  "src/assets/projects/5stars/11.jpg": {
+    "file": "assets/11-rV04vt5x.jpg",
+    "src": "src/assets/projects/5stars/11.jpg"
+  },
+  "src/assets/projects/5stars/12.jpg": {
+    "file": "assets/12-DDMBdGlw.jpg",
+    "src": "src/assets/projects/5stars/12.jpg"
+  },
+  "src/assets/projects/5stars/13.jpg": {
+    "file": "assets/13-CN-T-r3B.jpg",
+    "src": "src/assets/projects/5stars/13.jpg"
+  },
+  "src/assets/projects/5stars/14.jpg": {
+    "file": "assets/14-6qCEeQhq.jpg",
+    "src": "src/assets/projects/5stars/14.jpg"
+  },
+  "src/assets/projects/5stars/15.jpg": {
+    "file": "assets/15-B-doOkhc.jpg",
+    "src": "src/assets/projects/5stars/15.jpg"
+  },
+  "src/assets/projects/hrc/00.jpg": {
+    "file": "assets/00-DWrUPlIZ.jpg",
+    "src": "src/assets/projects/hrc/00.jpg"
+  },
+  "src/assets/projects/hrc/01.jpg": {
+    "file": "assets/01-DumHUKpE.jpg",
+    "src": "src/assets/projects/hrc/01.jpg"
+  },
+  "src/assets/projects/hrc/02.jpg": {
+    "file": "assets/02-uswU-Wr8.jpg",
+    "src": "src/assets/projects/hrc/02.jpg"
+  },
+  "src/assets/projects/hrc/03.jpg": {
+    "file": "assets/03-DzV0dLzK.jpg",
+    "src": "src/assets/projects/hrc/03.jpg"
+  },
+  "src/assets/projects/hrc/04.jpg": {
+    "file": "assets/04-C0HDHGFm.jpg",
+    "src": "src/assets/projects/hrc/04.jpg"
+  },
+  "src/assets/projects/hrc/05.jpg": {
+    "file": "assets/05-BluFSpn3.jpg",
+    "src": "src/assets/projects/hrc/05.jpg"
+  },
+  "src/assets/projects/hrc/06.jpg": {
+    "file": "assets/06-xGJP8UL4.jpg",
+    "src": "src/assets/projects/hrc/06.jpg"
+  },
+  "src/assets/projects/hrc/07.jpg": {
+    "file": "assets/07-RdEN97cf.jpg",
+    "src": "src/assets/projects/hrc/07.jpg"
+  },
+  "src/assets/projects/hrc/08.jpg": {
+    "file": "assets/08-DythAXnF.jpg",
+    "src": "src/assets/projects/hrc/08.jpg"
+  },
+  "src/assets/projects/malaga/00.jpg": {
+    "file": "assets/00-qPThGcE-.jpg",
+    "src": "src/assets/projects/malaga/00.jpg"
+  },
+  "src/assets/projects/malaga/01.jpg": {
+    "file": "assets/01-BXYlIa_9.jpg",
+    "src": "src/assets/projects/malaga/01.jpg"
+  },
+  "src/assets/projects/malaga/02.jpg": {
+    "file": "assets/02-ksPtGV6c.jpg",
+    "src": "src/assets/projects/malaga/02.jpg"
+  },
+  "src/assets/projects/malaga/03.jpg": {
+    "file": "assets/03-BskzCiMB.jpg",
+    "src": "src/assets/projects/malaga/03.jpg"
+  },
+  "src/assets/projects/malaga/04.jpg": {
+    "file": "assets/04-CHUzxSHq.jpg",
+    "src": "src/assets/projects/malaga/04.jpg"
+  },
+  "src/assets/projects/malaga/05.jpg": {
+    "file": "assets/05-Crd2uxjq.jpg",
+    "src": "src/assets/projects/malaga/05.jpg"
+  },
+  "src/assets/projects/malaga/06.jpg": {
+    "file": "assets/06-BRZKZisp.jpg",
+    "src": "src/assets/projects/malaga/06.jpg"
+  },
+  "src/assets/projects/ntc/00.jpg": {
+    "file": "assets/00-DF7MEpzx.jpg",
+    "src": "src/assets/projects/ntc/00.jpg"
+  },
+  "src/assets/projects/ntc/01.jpg": {
+    "file": "assets/01-roi8lErs.jpg",
+    "src": "src/assets/projects/ntc/01.jpg"
+  },
+  "src/assets/projects/ntc/02.jpg": {
+    "file": "assets/02-DrWJZ5iH.jpg",
+    "src": "src/assets/projects/ntc/02.jpg"
+  },
+  "src/assets/projects/ntc/03.jpg": {
+    "file": "assets/03-CikdHrLM.jpg",
+    "src": "src/assets/projects/ntc/03.jpg"
+  },
+  "src/assets/projects/ntc/04.jpg": {
+    "file": "assets/04-Br6fs_nm.jpg",
+    "src": "src/assets/projects/ntc/04.jpg"
+  },
+  "src/assets/projects/ntc/05.jpg": {
+    "file": "assets/05-jl9GPtjc.jpg",
+    "src": "src/assets/projects/ntc/05.jpg"
+  },
+  "src/assets/projects/ntc/06.jpg": {
+    "file": "assets/06-UK1LgnIC.jpg",
+    "src": "src/assets/projects/ntc/06.jpg"
+  },
+  "src/assets/projects/ntc/07.jpg": {
+    "file": "assets/07-B2tl5dlg.jpg",
+    "src": "src/assets/projects/ntc/07.jpg"
+  },
+  "src/assets/projects/ntc/08.jpg": {
+    "file": "assets/08-BjjlBO8E.jpg",
+    "src": "src/assets/projects/ntc/08.jpg"
+  },
+  "src/assets/projects/ntc/09.jpg": {
+    "file": "assets/09-D1B38D6u.jpg",
+    "src": "src/assets/projects/ntc/09.jpg"
+  },
+  "src/assets/projects/ntc/10.jpg": {
+    "file": "assets/10-CbZENe0o.jpg",
+    "src": "src/assets/projects/ntc/10.jpg"
+  },
+  "src/assets/projects/ntc/11.jpg": {
+    "file": "assets/11-xBoZTdsn.jpg",
+    "src": "src/assets/projects/ntc/11.jpg"
+  },
+  "src/assets/projects/ntc/12.jpg": {
+    "file": "assets/12-qFrs91Bn.jpg",
+    "src": "src/assets/projects/ntc/12.jpg"
+  },
+  "src/assets/projects/tarquini/00.jpg": {
+    "file": "assets/00--PxcohpX.jpg",
+    "src": "src/assets/projects/tarquini/00.jpg"
+  },
+  "src/assets/projects/tarquini/01.jpg": {
+    "file": "assets/01-_qkVmmdp.jpg",
+    "src": "src/assets/projects/tarquini/01.jpg"
+  },
+  "src/assets/projects/tarquini/02.jpg": {
+    "file": "assets/02-BTiUkFJy.jpg",
+    "src": "src/assets/projects/tarquini/02.jpg"
+  },
+  "src/assets/projects/tarquini/03.jpg": {
+    "file": "assets/03-ZYt9az5C.jpg",
+    "src": "src/assets/projects/tarquini/03.jpg"
+  },
+  "src/assets/projects/tarquini/04.jpg": {
+    "file": "assets/04-Csu_nkWb.jpg",
+    "src": "src/assets/projects/tarquini/04.jpg"
+  },
+  "src/assets/projects/tarquini/05.jpg": {
+    "file": "assets/05-BhMpgL1k.jpg",
+    "src": "src/assets/projects/tarquini/05.jpg"
+  },
+  "src/assets/projects/tarquini/06.jpg": {
+    "file": "assets/06-znU11XWC.jpg",
+    "src": "src/assets/projects/tarquini/06.jpg"
+  },
+  "src/assets/projects/tarquini/07.jpg": {
+    "file": "assets/07-BscHjs_k.jpg",
+    "src": "src/assets/projects/tarquini/07.jpg"
+  },
+  "src/assets/projects/tarquini/08.jpg": {
+    "file": "assets/08-CjXV-tkk.jpg",
+    "src": "src/assets/projects/tarquini/08.jpg"
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CUd9_0c7.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js",
+      "_Footer-P7t53bbg.js",
+      "_arrow-right-DopIsXzA.js",
+      "_router-K7HPpEca.js"
+    ],
+    "assets": [
+      "assets/hero-bg-C1AjFAzC.jpg",
+      "assets/five-stars-Dv0Qu8VP.png",
+      "assets/borges-8UAEwDht.png",
+      "assets/dre-tarquini-DS-zrYUF.png",
+      "assets/lamar-By7pYEOw.png",
+      "assets/malaga-DOdciCvj.png",
+      "assets/new-trade-DouxocWI.png",
+      "assets/creatives-mockup-BBdl-RF9.png"
+    ]
+  },
+  "src/routes/projetos.tsx?tsr-split=component": {
+    "file": "assets/projetos-CDBrjH6U.js",
+    "name": "projetos",
+    "src": "src/routes/projetos.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js",
+      "_router-K7HPpEca.js",
+      "_Footer-P7t53bbg.js",
+      "_arrow-left-Br5js95b.js",
+      "_arrow-right-DopIsXzA.js"
+    ]
+  },
+  "src/routes/projetos_.$slug.tsx?tsr-split=component": {
+    "file": "assets/projetos_._slug-DwlX-5jQ.js",
+    "name": "projetos_._slug",
+    "src": "src/routes/projetos_.$slug.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js",
+      "_router-K7HPpEca.js",
+      "_Footer-P7t53bbg.js",
+      "_arrow-left-Br5js95b.js"
+    ]
+  },
+  "src/routes/projetos_.$slug.tsx?tsr-split=errorComponent": {
+    "file": "assets/projetos_._slug-CZn6Vpy5.js",
+    "name": "projetos_._slug",
+    "src": "src/routes/projetos_.$slug.tsx?tsr-split=errorComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js"
+    ]
+  },
+  "src/routes/projetos_.$slug.tsx?tsr-split=notFoundComponent": {
+    "file": "assets/projetos_._slug-B5TmCk3-.js",
+    "name": "projetos_._slug",
+    "src": "src/routes/projetos_.$slug.tsx?tsr-split=notFoundComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js",
+      "_router-K7HPpEca.js",
+      "_Footer-P7t53bbg.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-DfNRO2ln.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-BstavnVk.js"
+    ]
+  }
+}

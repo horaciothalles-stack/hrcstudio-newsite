@@ -1,0 +1,1 @@
+import{j as r}from"./index-Z6gWWnot.js";const s=({error:o})=>r.jsx("div",{className:"min-h-screen bg-background p-10 text-foreground",children:r.jsxs("p",{children:["Erro: ",o.message]})});export{s as errorComponent};
