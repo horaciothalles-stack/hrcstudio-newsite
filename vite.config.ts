@@ -7,3 +7,10 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig();
+export default defineConfig({
+  base: '/', // se for domínio próprio conectado
+  // OU
+  base: '/hrcstudio-newsite/', // se for github.io/repo
+  plugins: [react()],
+  // resto da config...
+})
